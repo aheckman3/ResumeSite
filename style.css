@@ -1,0 +1,87 @@
+/* ---------- GLOBAL ---------- */
+body {
+    font-family: "Inter", Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #0f0f0f;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+/* Center content */
+header, section, footer {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    animation: fadeIn 0.8s ease forwards;
+    opacity: 0;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- HEADER ---------- */
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #a970ff;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: #a970ff;
+    font-weight: bold;
+    transition:text-decoration 0.2s ease;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- SECTION HEADERS ---------- */
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #a970ff;
+}
+
+/* ---------- CARD STYLE SECTIONS ---------- */
+section {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* ---------- PROJECTS & JOBS ---------- */
+.project, .job {
+    background: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 4px solid #a970ff;
+}
+
+/* ---------- LISTS ---------- */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
